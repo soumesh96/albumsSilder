@@ -1,0 +1,44 @@
+.individualBlock {
+    min-height: 18rem;
+    margin-bottom: 4rem;
+    background: #fff;
+  }
+  .header {
+    padding: 1rem;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  .img_container {
+    vertical-align: middle;
+    display: inline-block;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+    height: 20rem;
+  }
+  .img_container_block {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 2rem;
+  }
+  .content_img > span {
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+  }
+  .sliderLeftBtn {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%) scale(3);
+  }
+  .sliderRightBtn {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%) scale(3);
+  }
+  

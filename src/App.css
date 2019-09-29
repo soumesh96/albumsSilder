@@ -1,0 +1,60 @@
+
+.everyBlock{
+  min-height: 18rem;
+  margin-bottom:4rem; 
+  background: #fff
+}
+.header{
+  padding: 1rem;
+  border-bottom: 1px solid lightgray
+}
+.header > div:first-child{
+  margin-bottom: 0.5rem;
+}
+
+.image-container{
+  vertical-align: middle;
+  display: inline-block;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: 100%;
+  height: 20rem;
+}
+.image-container-img{
+  display: inline-block;
+  width:200px;
+  height:200px;
+  margin: 2rem;
+}
+.images{
+  width: 100%;
+  height:100%;
+  height:85%
+}
+.content-img>span{
+display: block;
+text-overflow: ellipsis;
+overflow: hidden;
+text-align: center;
+}
+.leftButton{
+  position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%) scale(3);
+}
+.rightButton{
+  position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%) scale(3);
+}
+/* ::-webkit-scrollbar {
+  display: none;
+} */
+
+
+
+
+
